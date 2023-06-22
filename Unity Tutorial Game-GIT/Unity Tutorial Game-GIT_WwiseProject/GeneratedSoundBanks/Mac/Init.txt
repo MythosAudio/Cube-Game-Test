@@ -1,3 +1,22 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2209143524	Music_Level3			\Default Work Unit\Music_Level3	
+	2209143525	Music_Level2			\Default Work Unit\Music_Level2	
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music_Level3			
+	1022736358	Start3	Music_Level3			
+	3799411576	Lvl3_Distance_Trigger_2	Music_Level3			
+	3799411579	Lvl3_Distance_Trigger_1	Music_Level3			
+	748895195	None	Music_Level2			
+	1022736359	Start2	Music_Level2			
+	1610955320	Lvl2_Distance_Trigger_1	Music_Level2			
+	1610955323	Lvl2_Distance_Trigger_2	Music_Level2			
+	748895195	None	Music			
+	1281810935	Start	Music			
+	2385509740	Distance_1000	Music			
+	3940778029	Distance_2000	Music			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

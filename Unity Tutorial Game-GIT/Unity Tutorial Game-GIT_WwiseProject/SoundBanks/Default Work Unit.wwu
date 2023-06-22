@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7E15CA84-F83A-49CD-B4EE-75937C241A93}" SchemaVersion="103">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{7E15CA84-F83A-49CD-B4EE-75937C241A93}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7E15CA84-F83A-49CD-B4EE-75937C241A93}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Music" ID="{25BBFA04-69AC-4384-B9BF-8853FF8BE9C5}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Music_Lvl2" ID="{9F3A1738-D0A1-4533-B3FE-C1C1AEE6B6B0}" WorkUnitID="{1F92167B-3350-4FCC-A168-7A014FECF575}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Music_Lvl2" ID="{EA357C97-B240-4795-AD53-A258C12F91E9}" WorkUnitID="{1F92167B-3350-4FCC-A168-7A014FECF575}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Music_Lvl1" ID="{5158C532-E1DC-47D7-A643-0E9D42D5A359}" WorkUnitID="{1F92167B-3350-4FCC-A168-7A014FECF575}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Music_Lvl3" ID="{CB8F36A9-5EF1-48A4-AD88-E38ABA22B896}" WorkUnitID="{1F92167B-3350-4FCC-A168-7A014FECF575}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Music_Lvl3" ID="{5A594451-930F-4A95-8CA9-6DEFF7979753}" WorkUnitID="{1F92167B-3350-4FCC-A168-7A014FECF575}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Music_Lvl1" ID="{1636D33D-B316-4EC8-809E-8D1818C95EA6}" WorkUnitID="{1F92167B-3350-4FCC-A168-7A014FECF575}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

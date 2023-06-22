@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e28baa1cf739ac4bba1e9e43b4f526b, type: 3}
+  m_Name: 43F794CF-D5A9-4888-9BE2-C405D9A7939F
+  m_EditorClassIdentifier: 
+  objectName: Lvl3_Distance_Trigger_2
+  id: 3799411576
+  guid: 43F794CF-D5A9-4888-9BE2-C405D9A7939F
+  WwiseStateGroupReference: {fileID: 11400000, guid: 4292cf51ac3cbd64d803ace34c466cb4,
+    type: 2}

@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 84ca157e3af8cd49b4ee75937c241a93
     GuidInternal: 
-    m_lastTime: -8585361852107620827
-    List: []
+    m_lastTime: -8585149389558047446
+    List:
+    - name: Music
+      guid: 04fabb25ac698443b9bf8853ff8be9c5
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 84ca157e3af8cd49b4ee75937c241a93
+      - ElementName: Music
+        ObjectType: 7
+        guid: 04fabb25ac698443b9bf8853ff8be9c5
+      Path: SoundBanks\Default Work Unit\Music
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,110 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 7b16921f5033cc4fa1687a014fecf575
     GuidInternal: 
-    m_lastTime: -8585361852107450784
-    List: []
+    m_lastTime: -8585149396984447557
+    List:
+    - name: Play_Music_Lvl1
+      guid: 3dd3361616b3c84e809e8d1818c95ea6
+      id: 4145153789
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7b16921f5033cc4fa1687a014fecf575
+      - ElementName: Play_Music_Lvl1
+        ObjectType: 3
+        guid: 3dd3361616b3c84e809e8d1818c95ea6
+      Path: Events\Default Work Unit\Play_Music_Lvl1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Music_Lvl2
+      guid: 38173a9fa1d03345b3fec1c1aee6b6b0
+      id: 4145153790
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7b16921f5033cc4fa1687a014fecf575
+      - ElementName: Play_Music_Lvl2
+        ObjectType: 3
+        guid: 38173a9fa1d03345b3fec1c1aee6b6b0
+      Path: Events\Default Work Unit\Play_Music_Lvl2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Music_Lvl3
+      guid: a9368fcbf15ea448ad88e38aba22b896
+      id: 4145153791
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7b16921f5033cc4fa1687a014fecf575
+      - ElementName: Play_Music_Lvl3
+        ObjectType: 3
+        guid: a9368fcbf15ea448ad88e38aba22b896
+      Path: Events\Default Work Unit\Play_Music_Lvl3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Music_Lvl1
+      guid: 32c55851dce1d747a6430e9d42d5a359
+      id: 2611462427
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7b16921f5033cc4fa1687a014fecf575
+      - ElementName: Stop_Music_Lvl1
+        ObjectType: 3
+        guid: 32c55851dce1d747a6430e9d42d5a359
+      Path: Events\Default Work Unit\Stop_Music_Lvl1
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Music_Lvl2
+      guid: 977c35ea40b29547ad53a258c12f91e9
+      id: 2611462424
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7b16921f5033cc4fa1687a014fecf575
+      - ElementName: Stop_Music_Lvl2
+        ObjectType: 3
+        guid: 977c35ea40b29547ad53a258c12f91e9
+      Path: Events\Default Work Unit\Stop_Music_Lvl2
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Music_Lvl3
+      guid: 5144595a0f93954a8ca96deff7979753
+      id: 2611462425
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7b16921f5033cc4fa1687a014fecf575
+      - ElementName: Stop_Music_Lvl3
+        ObjectType: 3
+        guid: 5144595a0f93954a8ca96deff7979753
+      Path: Events\Default Work Unit\Stop_Music_Lvl3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -108,8 +224,254 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: ee4a7d8f40f1454fbefd526d8970082a
     GuidInternal: 
-    m_lastTime: -8585361852107850892
-    List: []
+    m_lastTime: -8585149396984506954
+    List:
+    - name: Music
+      guid: 65bdfd1aa5628d42bc4fd3d88f89435f
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ee4a7d8f40f1454fbefd526d8970082a
+      - ElementName: Music
+        ObjectType: 9
+        guid: 65bdfd1aa5628d42bc4fd3d88f89435f
+      Path: States\Default Work Unit\Music
+      values:
+      - name: Distance_1000
+        guid: 6ec727e8da94554eb0fd39f9b5325052
+        id: 2385509740
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ee4a7d8f40f1454fbefd526d8970082a
+        - ElementName: Music
+          ObjectType: 9
+          guid: 65bdfd1aa5628d42bc4fd3d88f89435f
+        - ElementName: Distance_1000
+          ObjectType: 8
+          guid: 6ec727e8da94554eb0fd39f9b5325052
+      - name: Distance_2000
+        guid: 93c4f5ce588dbc4a950e8585057450c7
+        id: 3940778029
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ee4a7d8f40f1454fbefd526d8970082a
+        - ElementName: Music
+          ObjectType: 9
+          guid: 65bdfd1aa5628d42bc4fd3d88f89435f
+        - ElementName: Distance_2000
+          ObjectType: 8
+          guid: 93c4f5ce588dbc4a950e8585057450c7
+      - name: None
+        guid: 06316c480ba7794d9279b2e0efdd5a38
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ee4a7d8f40f1454fbefd526d8970082a
+        - ElementName: Music
+          ObjectType: 9
+          guid: 65bdfd1aa5628d42bc4fd3d88f89435f
+        - ElementName: None
+          ObjectType: 8
+          guid: 06316c480ba7794d9279b2e0efdd5a38
+      - name: Start
+        guid: 7df38b43799c804b8060aa3f2c2b28be
+        id: 1281810935
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ee4a7d8f40f1454fbefd526d8970082a
+        - ElementName: Music
+          ObjectType: 9
+          guid: 65bdfd1aa5628d42bc4fd3d88f89435f
+        - ElementName: Start
+          ObjectType: 8
+          guid: 7df38b43799c804b8060aa3f2c2b28be
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Music_Level2
+      guid: eb3a4c68d250a64487c1d8d4a9b0ea0d
+      id: 2209143525
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ee4a7d8f40f1454fbefd526d8970082a
+      - ElementName: Music_Level2
+        ObjectType: 9
+        guid: eb3a4c68d250a64487c1d8d4a9b0ea0d
+      Path: States\Default Work Unit\Music_Level2
+      values:
+      - name: Lvl2_Distance_Trigger_1
+        guid: 9abcd25b15e76b4381c53778c7e1a547
+        id: 1610955320
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ee4a7d8f40f1454fbefd526d8970082a
+        - ElementName: Music_Level2
+          ObjectType: 9
+          guid: eb3a4c68d250a64487c1d8d4a9b0ea0d
+        - ElementName: Lvl2_Distance_Trigger_1
+          ObjectType: 8
+          guid: 9abcd25b15e76b4381c53778c7e1a547
+      - name: Lvl2_Distance_Trigger_2
+        guid: a9e16ef1faaa1f4bb9fb7f178a6a42e5
+        id: 1610955323
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ee4a7d8f40f1454fbefd526d8970082a
+        - ElementName: Music_Level2
+          ObjectType: 9
+          guid: eb3a4c68d250a64487c1d8d4a9b0ea0d
+        - ElementName: Lvl2_Distance_Trigger_2
+          ObjectType: 8
+          guid: a9e16ef1faaa1f4bb9fb7f178a6a42e5
+      - name: None
+        guid: b11db740302ede418c99b2885eda10df
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ee4a7d8f40f1454fbefd526d8970082a
+        - ElementName: Music_Level2
+          ObjectType: 9
+          guid: eb3a4c68d250a64487c1d8d4a9b0ea0d
+        - ElementName: None
+          ObjectType: 8
+          guid: b11db740302ede418c99b2885eda10df
+      - name: Start2
+        guid: 67cc79841f2c504bb45344e3ba41e1e9
+        id: 1022736359
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ee4a7d8f40f1454fbefd526d8970082a
+        - ElementName: Music_Level2
+          ObjectType: 9
+          guid: eb3a4c68d250a64487c1d8d4a9b0ea0d
+        - ElementName: Start2
+          ObjectType: 8
+          guid: 67cc79841f2c504bb45344e3ba41e1e9
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Music_Level3
+      guid: 797fa49e22d91842bce409958110b826
+      id: 2209143524
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ee4a7d8f40f1454fbefd526d8970082a
+      - ElementName: Music_Level3
+        ObjectType: 9
+        guid: 797fa49e22d91842bce409958110b826
+      Path: States\Default Work Unit\Music_Level3
+      values:
+      - name: Lvl3_Distance_Trigger_1
+        guid: eeda644c7ff0e84a958459d11720636f
+        id: 3799411579
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ee4a7d8f40f1454fbefd526d8970082a
+        - ElementName: Music_Level3
+          ObjectType: 9
+          guid: 797fa49e22d91842bce409958110b826
+        - ElementName: Lvl3_Distance_Trigger_1
+          ObjectType: 8
+          guid: eeda644c7ff0e84a958459d11720636f
+      - name: Lvl3_Distance_Trigger_2
+        guid: cf94f743a9d588489be2c405d9a7939f
+        id: 3799411576
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ee4a7d8f40f1454fbefd526d8970082a
+        - ElementName: Music_Level3
+          ObjectType: 9
+          guid: 797fa49e22d91842bce409958110b826
+        - ElementName: Lvl3_Distance_Trigger_2
+          ObjectType: 8
+          guid: cf94f743a9d588489be2c405d9a7939f
+      - name: None
+        guid: 532922571bdb1c4fb6ef981cf2b5057e
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ee4a7d8f40f1454fbefd526d8970082a
+        - ElementName: Music_Level3
+          ObjectType: 9
+          guid: 797fa49e22d91842bce409958110b826
+        - ElementName: None
+          ObjectType: 8
+          guid: 532922571bdb1c4fb6ef981cf2b5057e
+      - name: Start3
+        guid: 7d79c7cd18d50f448a08baf8202910b9
+        id: 1022736358
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ee4a7d8f40f1454fbefd526d8970082a
+        - ElementName: Music_Level3
+          ObjectType: 9
+          guid: 797fa49e22d91842bce409958110b826
+        - ElementName: Start3
+          ObjectType: 8
+          guid: 7d79c7cd18d50f448a08baf8202910b9
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +501,7 @@ MonoBehaviour:
     m_lastTime: -8585361852107350765
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e000000100000001100000012000000130000002200000023000000390000003a00000052000000530000005400000055000000560000005a0000005b0000006f00000070000000710000007a0000007b0000008800000091000000920000009500000096000000ab000000c0000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

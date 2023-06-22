@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1122283870	MusicStart			\Default Work Unit\MusicStart	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	571455588	Harmony	C:\Users\conno\OneDrive\Documents\GitHub\Cube-Game-Test\Unity Tutorial Game-GIT\Unity Tutorial Game-GIT_WwiseProject\.cache\Mac\SFX\Harmony_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Level 1 Music\Cue1\Harmony		3168064
+	670793749	Percussion	C:\Users\conno\OneDrive\Documents\GitHub\Cube-Game-Test\Unity Tutorial Game-GIT\Unity Tutorial Game-GIT_WwiseProject\.cache\Mac\SFX\Percussion_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Level 1 Music\Cue1\Percussion		3168064
+	822014237	Melody	C:\Users\conno\OneDrive\Documents\GitHub\Cube-Game-Test\Unity Tutorial Game-GIT\Unity Tutorial Game-GIT_WwiseProject\.cache\Mac\SFX\Melody_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Level 1 Music\Cue1\Melody		3168064
+

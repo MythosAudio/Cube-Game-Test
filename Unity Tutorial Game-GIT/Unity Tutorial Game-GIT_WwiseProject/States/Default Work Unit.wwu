@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8F7D4AEE-F140-4F45-BEFD-526D8970082A}" SchemaVersion="103">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{8F7D4AEE-F140-4F45-BEFD-526D8970082A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8F7D4AEE-F140-4F45-BEFD-526D8970082A}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music" ID="{1AFDBD65-62A5-428D-BC4F-D3D88F89435F}">
+					<ChildrenList>
+						<State Name="None" ID="{486C3106-A70B-4D79-9279-B2E0EFDD5A38}"/>
+						<State Name="Start" ID="{438BF37D-9C79-4B80-8060-AA3F2C2B28BE}"/>
+						<State Name="Distance_1000" ID="{E827C76E-94DA-4E55-B0FD-39F9B5325052}"/>
+						<State Name="Distance_2000" ID="{CEF5C493-8D58-4ABC-950E-8585057450C7}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Music_Level2" ID="{684C3AEB-50D2-44A6-87C1-D8D4A9B0EA0D}">
+					<ChildrenList>
+						<State Name="None" ID="{40B71DB1-2E30-41DE-8C99-B2885EDA10DF}"/>
+						<State Name="Start2" ID="{8479CC67-2C1F-4B50-B453-44E3BA41E1E9}"/>
+						<State Name="Lvl2_Distance_Trigger_1" ID="{5BD2BC9A-E715-436B-81C5-3778C7E1A547}"/>
+						<State Name="Lvl2_Distance_Trigger_2" ID="{F16EE1A9-AAFA-4B1F-B9FB-7F178A6A42E5}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Music_Level3" ID="{9EA47F79-D922-4218-BCE4-09958110B826}">
+					<ChildrenList>
+						<State Name="None" ID="{57222953-DB1B-4F1C-B6EF-981CF2B5057E}"/>
+						<State Name="Lvl3_Distance_Trigger_1" ID="{4C64DAEE-F07F-4AE8-9584-59D11720636F}"/>
+						<State Name="Lvl3_Distance_Trigger_2" ID="{43F794CF-D5A9-4888-9BE2-C405D9A7939F}"/>
+						<State Name="Start3" ID="{CDC7797D-D518-440F-8A08-BAF8202910B9}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

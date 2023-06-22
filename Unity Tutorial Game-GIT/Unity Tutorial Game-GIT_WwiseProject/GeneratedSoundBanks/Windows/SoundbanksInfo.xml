@@ -11,10 +11,166 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1901683021">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="2090625692">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4145153789" Name="Play_Music_Lvl1" ObjectPath="\Events\Default Work Unit\Play_Music_Lvl1" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="122958544" Language="SFX">
+							<ShortName>Lvl1_2000 Har.wav</ShortName>
+							<Path>SFX\Lvl1_2000 Har_D79FB2B7.wem</Path>
+						</File>
+						<File Id="407484961" Language="SFX">
+							<ShortName>Lvl1_1000 Melody.wav</ShortName>
+							<Path>SFX\Lvl1_1000 Melody_D79FB2B7.wem</Path>
+						</File>
+						<File Id="428253735" Language="SFX">
+							<ShortName>Lvl1_Start.wav</ShortName>
+							<Path>SFX\Lvl1_Start_D79FB2B7.wem</Path>
+						</File>
+						<File Id="746542554" Language="SFX">
+							<ShortName>Lvl1_1000Lvl 1 Perc.wav</ShortName>
+							<Path>SFX\Lvl1_1000Lvl 1 Perc_D79FB2B7.wem</Path>
+						</File>
+						<File Id="783583501" Language="SFX">
+							<ShortName>Lvl1_2000 Perc.wav</ShortName>
+							<Path>SFX\Lvl1_2000 Perc_D79FB2B7.wem</Path>
+						</File>
+						<File Id="800454221" Language="SFX">
+							<ShortName>Lvl1_2000 Mel.wav</ShortName>
+							<Path>SFX\Lvl1_2000 Mel_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{438BF37D-9C79-4B80-8060-AA3F2C2B28BE}">
+							<Media>
+								<File Id="428253735"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{CEF5C493-8D58-4ABC-950E-8585057450C7}">
+							<Media>
+								<File Id="122958544"/>
+								<File Id="783583501"/>
+								<File Id="800454221"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E827C76E-94DA-4E55-B0FD-39F9B5325052}">
+							<Media>
+								<File Id="407484961"/>
+								<File Id="746542554"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="4145153790" Name="Play_Music_Lvl2" ObjectPath="\Events\Default Work Unit\Play_Music_Lvl2" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="153103686" Language="SFX">
+							<ShortName>Lvl 2 Har-002.wav</ShortName>
+							<Path>SFX\Lvl 2 Har-002_D79FB2B7.wem</Path>
+						</File>
+						<File Id="336649024" Language="SFX">
+							<ShortName>Lvl 2 Mel-001.wav</ShortName>
+							<Path>SFX\Lvl 2 Mel-001_D79FB2B7.wem</Path>
+						</File>
+						<File Id="920288677" Language="SFX">
+							<ShortName>Lvl 2 Music-Perc.wav</ShortName>
+							<Path>SFX\Lvl 2 Music-Perc_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{8479CC67-2C1F-4B50-B453-44E3BA41E1E9}">
+							<Media>
+								<File Id="336649024"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5BD2BC9A-E715-436B-81C5-3778C7E1A547}">
+							<Media>
+								<File Id="336649024"/>
+								<File Id="920288677"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F16EE1A9-AAFA-4B1F-B9FB-7F178A6A42E5}">
+							<Media>
+								<File Id="153103686"/>
+								<File Id="336649024"/>
+								<File Id="920288677"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="4145153791" Name="Play_Music_Lvl3" ObjectPath="\Events\Default Work Unit\Play_Music_Lvl3" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="262457279" Language="SFX">
+							<ShortName>Lvl 3 Music Har (2).wav</ShortName>
+							<Path>SFX\Lvl 3 Music Har (2)_D79FB2B7.wem</Path>
+						</File>
+						<File Id="389468696" Language="SFX">
+							<ShortName>Lvl 3 Music Perc.wav</ShortName>
+							<Path>SFX\Lvl 3 Music Perc_D79FB2B7.wem</Path>
+						</File>
+						<File Id="782239969" Language="SFX">
+							<ShortName>Lvl 3 Music Mel.wav</ShortName>
+							<Path>SFX\Lvl 3 Music Mel_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{CDC7797D-D518-440F-8A08-BAF8202910B9}">
+							<Media>
+								<File Id="782239969"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4C64DAEE-F07F-4AE8-9584-59D11720636F}">
+							<Media>
+								<File Id="389468696"/>
+								<File Id="782239969"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{43F794CF-D5A9-4888-9BE2-C405D9A7939F}">
+							<Media>
+								<File Id="262457279"/>
+								<File Id="389468696"/>
+								<File Id="782239969"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2611462427" Name="Stop_Music_Lvl1" ObjectPath="\Events\Default Work Unit\Stop_Music_Lvl1" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2611462424" Name="Stop_Music_Lvl2" ObjectPath="\Events\Default Work Unit\Stop_Music_Lvl2" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2611462425" Name="Stop_Music_Lvl3" ObjectPath="\Events\Default Work Unit\Stop_Music_Lvl3" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="2209143524" Name="Music_Level3" ObjectPath="\States\Default Work Unit\Music_Level3" GUID="{9EA47F79-D922-4218-BCE4-09958110B826}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music_Level3\None" GUID="{57222953-DB1B-4F1C-B6EF-981CF2B5057E}"/>
+						<State Id="3799411579" Name="Lvl3_Distance_Trigger_1" ObjectPath="\States\Default Work Unit\Music_Level3\Lvl3_Distance_Trigger_1" GUID="{4C64DAEE-F07F-4AE8-9584-59D11720636F}"/>
+						<State Id="3799411576" Name="Lvl3_Distance_Trigger_2" ObjectPath="\States\Default Work Unit\Music_Level3\Lvl3_Distance_Trigger_2" GUID="{43F794CF-D5A9-4888-9BE2-C405D9A7939F}"/>
+						<State Id="1022736358" Name="Start3" ObjectPath="\States\Default Work Unit\Music_Level3\Start3" GUID="{CDC7797D-D518-440F-8A08-BAF8202910B9}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2209143525" Name="Music_Level2" ObjectPath="\States\Default Work Unit\Music_Level2" GUID="{684C3AEB-50D2-44A6-87C1-D8D4A9B0EA0D}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music_Level2\None" GUID="{40B71DB1-2E30-41DE-8C99-B2885EDA10DF}"/>
+						<State Id="1022736359" Name="Start2" ObjectPath="\States\Default Work Unit\Music_Level2\Start2" GUID="{8479CC67-2C1F-4B50-B453-44E3BA41E1E9}"/>
+						<State Id="1610955320" Name="Lvl2_Distance_Trigger_1" ObjectPath="\States\Default Work Unit\Music_Level2\Lvl2_Distance_Trigger_1" GUID="{5BD2BC9A-E715-436B-81C5-3778C7E1A547}"/>
+						<State Id="1610955323" Name="Lvl2_Distance_Trigger_2" ObjectPath="\States\Default Work Unit\Music_Level2\Lvl2_Distance_Trigger_2" GUID="{F16EE1A9-AAFA-4B1F-B9FB-7F178A6A42E5}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music" GUID="{1AFDBD65-62A5-428D-BC4F-D3D88F89435F}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None" GUID="{486C3106-A70B-4D79-9279-B2E0EFDD5A38}"/>
+						<State Id="1281810935" Name="Start" ObjectPath="\States\Default Work Unit\Music\Start" GUID="{438BF37D-9C79-4B80-8060-AA3F2C2B28BE}"/>
+						<State Id="2385509740" Name="Distance_1000" ObjectPath="\States\Default Work Unit\Music\Distance_1000" GUID="{E827C76E-94DA-4E55-B0FD-39F9B5325052}"/>
+						<State Id="3940778029" Name="Distance_2000" ObjectPath="\States\Default Work Unit\Music\Distance_2000" GUID="{CEF5C493-8D58-4ABC-950E-8585057450C7}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

@@ -1,6 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1F92167B-3350-4FCC-A168-7A014FECF575}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{1F92167B-3350-4FCC-A168-7A014FECF575}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1F92167B-3350-4FCC-A168-7A014FECF575}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Music_Lvl1" ID="{1636D33D-B316-4EC8-809E-8D1818C95EA6}">
+					<ChildrenList>
+						<Action Name="" ID="{4D1A8D47-4AB1-454F-930A-BEB121686BC9}" ShortID="635731277">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Gameplay_Level1" ID="{A4229E50-1D8C-4A6B-BFE7-7DA44B6640F3}" WorkUnitID="{6DEB5379-4AA3-4FD6-A56B-C66EAE72514B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{158CF0FB-13CE-4738-8D0C-B6528E7A2EFB}" ShortID="585789135">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Gameplay_Level1" ID="{A4229E50-1D8C-4A6B-BFE7-7DA44B6640F3}" WorkUnitID="{6DEB5379-4AA3-4FD6-A56B-C66EAE72514B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music_Lvl2" ID="{9F3A1738-D0A1-4533-B3FE-C1C1AEE6B6B0}">
+					<ChildrenList>
+						<Action Name="" ID="{0E3363C6-E709-48B7-BBCD-201FF3C7CDFD}" ShortID="900144057">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Gameplay_Level2" ID="{B9234CAC-8CFE-444F-8A8D-ADCD2E94984E}" WorkUnitID="{6DEB5379-4AA3-4FD6-A56B-C66EAE72514B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{621FF471-5A63-4D0B-AF3B-1A238421C51D}" ShortID="9640829">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Gameplay_Level2" ID="{B9234CAC-8CFE-444F-8A8D-ADCD2E94984E}" WorkUnitID="{6DEB5379-4AA3-4FD6-A56B-C66EAE72514B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music_Lvl1" ID="{5158C532-E1DC-47D7-A643-0E9D42D5A359}">
+					<ChildrenList>
+						<Action Name="" ID="{6247FA33-599B-4A79-AE3F-EA8479EA7E60}" ShortID="191043793">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Gameplay_Level1" ID="{A4229E50-1D8C-4A6B-BFE7-7DA44B6640F3}" WorkUnitID="{6DEB5379-4AA3-4FD6-A56B-C66EAE72514B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music_Lvl2" ID="{EA357C97-B240-4795-AD53-A258C12F91E9}">
+					<ChildrenList>
+						<Action Name="" ID="{047AAC7A-2272-442C-B8A4-27403F937981}" ShortID="410312639">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Gameplay_Level2" ID="{B9234CAC-8CFE-444F-8A8D-ADCD2E94984E}" WorkUnitID="{6DEB5379-4AA3-4FD6-A56B-C66EAE72514B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music_Lvl3" ID="{CB8F36A9-5EF1-48A4-AD88-E38ABA22B896}">
+					<ChildrenList>
+						<Action Name="" ID="{F4B67E9A-B94D-4F3F-8557-1103DBEB27A9}" ShortID="544972332">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Gameplay_Level3" ID="{2F93985D-15A5-4738-A361-3AFD506F869F}" WorkUnitID="{6DEB5379-4AA3-4FD6-A56B-C66EAE72514B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FECAD572-B0DA-4BBA-80C7-DAC8F9AE83A0}" ShortID="40651951">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Gameplay_Level3" ID="{2F93985D-15A5-4738-A361-3AFD506F869F}" WorkUnitID="{6DEB5379-4AA3-4FD6-A56B-C66EAE72514B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music_Lvl3" ID="{5A594451-930F-4A95-8CA9-6DEFF7979753}">
+					<ChildrenList>
+						<Action Name="" ID="{A527E270-2B75-4378-9694-49FABE1B04F8}" ShortID="519047102">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Gameplay_Level3" ID="{2F93985D-15A5-4738-A361-3AFD506F869F}" WorkUnitID="{6DEB5379-4AA3-4FD6-A56B-C66EAE72514B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -1,0 +1,41 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2611462424	Stop_Music_Lvl2			\Default Work Unit\Stop_Music_Lvl2	
+	2611462425	Stop_Music_Lvl3			\Default Work Unit\Stop_Music_Lvl3	
+	2611462427	Stop_Music_Lvl1			\Default Work Unit\Stop_Music_Lvl1	
+	4145153789	Play_Music_Lvl1			\Default Work Unit\Play_Music_Lvl1	
+	4145153790	Play_Music_Lvl2			\Default Work Unit\Play_Music_Lvl2	
+	4145153791	Play_Music_Lvl3			\Default Work Unit\Play_Music_Lvl3	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2209143524	Music_Level3			\Default Work Unit\Music_Level3	
+	2209143525	Music_Level2			\Default Work Unit\Music_Level2	
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music_Level3			
+	1022736358	Start3	Music_Level3			
+	3799411576	Lvl3_Distance_Trigger_2	Music_Level3			
+	3799411579	Lvl3_Distance_Trigger_1	Music_Level3			
+	748895195	None	Music_Level2			
+	1022736359	Start2	Music_Level2			
+	1610955320	Lvl2_Distance_Trigger_1	Music_Level2			
+	1610955323	Lvl2_Distance_Trigger_2	Music_Level2			
+	748895195	None	Music			
+	1281810935	Start	Music			
+	2385509740	Distance_1000	Music			
+	3940778029	Distance_2000	Music			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	122958544	Lvl1_2000 Har	C:\Users\conno\OneDrive\Documents\GitHub\Cube-Game-Test\Unity Tutorial Game-GIT\Unity Tutorial Game-GIT_WwiseProject\.cache\Windows\SFX\Lvl1_2000 Har_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Gameplay_Level1\Level1_2000m\2000m\Lvl1_2000 Har		3456064
+	153103686	Lvl 2 Har-002	C:\Users\conno\OneDrive\Documents\GitHub\Cube-Game-Test\Unity Tutorial Game-GIT\Unity Tutorial Game-GIT_WwiseProject\.cache\Windows\SFX\Lvl 2 Har-002_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Gameplay_Level2\Level_2_Trigger_2\Level2_Trig2\Lvl 2 Har-002		3456064
+	262457279	Lvl 3 Music Har (2)	C:\Users\conno\OneDrive\Documents\GitHub\Cube-Game-Test\Unity Tutorial Game-GIT\Unity Tutorial Game-GIT_WwiseProject\.cache\Windows\SFX\Lvl 3 Music Har (2)_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Gameplay_Level3\Level_3_Trigger2\Level3_Trig2\Lvl 3 Music Har (2)		3456064
+	336649024	Lvl 2 Mel-001	C:\Users\conno\OneDrive\Documents\GitHub\Cube-Game-Test\Unity Tutorial Game-GIT\Unity Tutorial Game-GIT_WwiseProject\.cache\Windows\SFX\Lvl 2 Mel-001_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Gameplay_Level2\Level_2_Start\Level2_Start\Lvl 2 Mel-001		3456064
+	389468696	Lvl 3 Music Perc	C:\Users\conno\OneDrive\Documents\GitHub\Cube-Game-Test\Unity Tutorial Game-GIT\Unity Tutorial Game-GIT_WwiseProject\.cache\Windows\SFX\Lvl 3 Music Perc_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Gameplay_Level3\Level_3_Trigger1\Level3_Trig1\Lvl 3 Music Perc		3456064
+	407484961	Lvl1_1000 Melody	C:\Users\conno\OneDrive\Documents\GitHub\Cube-Game-Test\Unity Tutorial Game-GIT\Unity Tutorial Game-GIT_WwiseProject\.cache\Windows\SFX\Lvl1_1000 Melody_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Gameplay_Level1\Level1_1000m\1000m\Lvl1_1000 Melody		3456064
+	428253735	Lvl1_Start	C:\Users\conno\OneDrive\Documents\GitHub\Cube-Game-Test\Unity Tutorial Game-GIT\Unity Tutorial Game-GIT_WwiseProject\.cache\Windows\SFX\Lvl1_Start_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Gameplay_Level1\Level1_Start\Start\Lvl1_Start		3456064
+	746542554	Lvl1_1000Lvl 1 Perc	C:\Users\conno\OneDrive\Documents\GitHub\Cube-Game-Test\Unity Tutorial Game-GIT\Unity Tutorial Game-GIT_WwiseProject\.cache\Windows\SFX\Lvl1_1000Lvl 1 Perc_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Gameplay_Level1\Level1_1000m\1000m\Lvl1_1000Lvl 1 Perc		3456064
+	782239969	Lvl 3 Music Mel	C:\Users\conno\OneDrive\Documents\GitHub\Cube-Game-Test\Unity Tutorial Game-GIT\Unity Tutorial Game-GIT_WwiseProject\.cache\Windows\SFX\Lvl 3 Music Mel_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Gameplay_Level3\Level_3_Start\Level3_Start\Lvl 3 Music Mel		3456064
+	783583501	Lvl1_2000 Perc	C:\Users\conno\OneDrive\Documents\GitHub\Cube-Game-Test\Unity Tutorial Game-GIT\Unity Tutorial Game-GIT_WwiseProject\.cache\Windows\SFX\Lvl1_2000 Perc_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Gameplay_Level1\Level1_2000m\2000m\Lvl1_2000 Perc		3456064
+	800454221	Lvl1_2000 Mel	C:\Users\conno\OneDrive\Documents\GitHub\Cube-Game-Test\Unity Tutorial Game-GIT\Unity Tutorial Game-GIT_WwiseProject\.cache\Windows\SFX\Lvl1_2000 Mel_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Gameplay_Level1\Level1_2000m\2000m\Lvl1_2000 Mel		3456064
+	920288677	Lvl 2 Music-Perc	C:\Users\conno\OneDrive\Documents\GitHub\Cube-Game-Test\Unity Tutorial Game-GIT\Unity Tutorial Game-GIT_WwiseProject\.cache\Windows\SFX\Lvl 2 Music-Perc_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Gameplay_Level2\Level_2_Trigger_1\Level2_Trig1\Lvl 2 Music-Perc		3456064
+
